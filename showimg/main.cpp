@@ -5,13 +5,14 @@
 #include <opencv2/opencv.hpp>
 #include <cstring>
 
+
 using namespace std;
 using namespace cv;
 
 void testCVFunc(){
     std::cout << "Hello, World!" << std::endl;
     Mat img = imread("../material/hbg.png");
-    namedWindow("Window", CV_WINDOW_AUTOSIZE);
+    namedWindow("Window", WINDOW_AUTOSIZE);
     imshow("Window", img);
     waitKey(0);
     vector<int> elem_seq(4);

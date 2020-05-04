@@ -1,0 +1,1 @@
+[teach from](https://github.com/JockerLin/ImageProcessing100Wen/blob/my_analysis/Question_01_10/answers_cpp/answer_1.cpp)

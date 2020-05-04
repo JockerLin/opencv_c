@@ -1,8 +1,9 @@
 #include <iostream>
 #include <vector>
-#include <opencv2/core/core.hpp>
-#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/highgui.hpp>
 #include <opencv2/opencv.hpp>
+#include <opencv2/rgbd.hpp>
 #include <cstring>
 
 
@@ -10,6 +11,8 @@ using namespace std;
 using namespace cv;
 
 void testCVFunc(){
+//    cv::linemod::ColorGradient re;
+//    re = cv::linemod::ColorGradient(10, 60, 100);
     std::cout << "Hello, World!" << std::endl;
     Mat img = imread("../material/hbg.png");
     namedWindow("Window", WINDOW_AUTOSIZE);
@@ -76,7 +79,7 @@ int pratice16GetNumber(){
     return 0;
 }
 
-int main() {
+int main11() {
     testCVFunc();
 //    pratice151();
 //    pratice152();

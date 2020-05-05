@@ -1,8 +1,13 @@
 #include <iostream>
 #include <vector>
-#include <opencv2/core.hpp>
-#include <opencv2/highgui.hpp>
-#include <opencv2/opencv.hpp>
+//#include <opencv2/core.hpp>
+//#include <opencv2/highgui.hpp>
+//#include <opencv2/opencv.hpp>
+//#include <opencv2/rgbd.hpp>
+#include <opencv2/rgbd/linemod.hpp>
+#include <opencv2/core/core.hpp>
+#include <opencv2/imgproc.hpp>
+#include <opencv2/highgui/highgui.hpp>
 #include <opencv2/rgbd.hpp>
 #include <cstring>
 
@@ -14,7 +19,7 @@ void testCVFunc(){
 //    cv::linemod::ColorGradient re;
 //    re = cv::linemod::ColorGradient(10, 60, 100);
     std::cout << "Hello, World!" << std::endl;
-    Mat img = imread("../material/hbg.png");
+    Mat img = imread("../material/kkk_template.png");
     namedWindow("Window", WINDOW_AUTOSIZE);
     imshow("Window", img);
     waitKey(0);
@@ -79,7 +84,13 @@ int pratice16GetNumber(){
     return 0;
 }
 
-int main11() {
+//int testLinemod(){
+//
+//    cv::linemod::Detector();
+//    cv::linemod::ColorGradient();
+//}
+
+int main() {
     testCVFunc();
 //    pratice151();
 //    pratice152();

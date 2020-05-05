@@ -40,6 +40,7 @@
 // the use of this software, even if advised of the possibility of such damage.
 //
 //M*/
+// from contrib/modules_all/rgbd/include/opencv2/rgbd/linemod.hpp
 
 #ifndef __OPENCV_OBJDETECT_LINEMOD_HPP__
 #define __OPENCV_OBJDETECT_LINEMOD_HPP__

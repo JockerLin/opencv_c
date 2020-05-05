@@ -39,7 +39,7 @@
 // the use of this software, even if advised of the possibility of such damage.
 //
 //M*/
-
+// from contrib/modules_all/rgbd/src/linemod.cpp
 #include "precomp.hpp"
 #include "opencv2/imgcodecs.hpp"
 

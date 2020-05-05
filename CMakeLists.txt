@@ -10,5 +10,5 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(main showimg/main.cpp showimg/matchtemplate.cpp)
-target_link_libraries(main ${OpenCV_LIBS})
+add_executable(run showimg/main.cpp showimg/matchtemplate.cpp)
+target_link_libraries(run ${OpenCV_LIBS})
